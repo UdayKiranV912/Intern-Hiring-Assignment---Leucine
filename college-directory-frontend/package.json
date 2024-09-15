@@ -1,0 +1,7 @@
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "start-all": "concurrently \"npm start\" \"cd ../college-directory-backend && mvn spring-boot:run\""
+}
