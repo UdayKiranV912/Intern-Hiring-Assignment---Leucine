@@ -45,7 +45,7 @@ The backend is developed using **Java** and **Spring Boot**, providing RESTful A
     Update `src/main/resources/application.properties` with your PostgreSQL credentials:
 
     ```properties
-    spring.datasource.url=jdbc:postgresql://localhost:5432/collegedirectory
+    spring.datasource.url=jdbc:postgresql://localhost:8000/collegedirectory
     spring.datasource.username=your_db_user
     spring.datasource.password=your_db_password
     ```
